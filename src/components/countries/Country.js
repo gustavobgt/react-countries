@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import css from './countries.module.css';
 
-export default class Country extends Component {
-  render() {
-    const { name, flag } = this.props.country;
+export default function Country({ country }) {
+  const { name, flag } = country;
 
-    return (
-      <div className={`${css.country} ${css.border}`}>
-        <img className={css.flag} src={flag} alt={name} />
-        <span className={css.countryName}>{name}</span>
-      </div>
-    );
-  }
+  return (
+    <div className={`${css.country} ${css.border}`}>
+      <img className={css.flag} src={flag} alt={name} />
+      <span className={css.countryName}>{name}</span>
+    </div>
+  );
 }
