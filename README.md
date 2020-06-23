@@ -1,3 +1,9 @@
+## 📸 Screenshots
+- Desktop display
+<p align="center">
+<img src="https://i.imgur.com/kYn9quj.png" width="650px">
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
